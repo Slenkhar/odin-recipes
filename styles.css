@@ -1,0 +1,33 @@
+.welcome {
+  background-color: blanchedalmond;
+  width: 50vw;
+  padding: 0.2em;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(83, 45, 14);
+  border-radius: 12px;
+}
+
+.menu {
+  list-style: none;
+  background-color: blanchedalmond;
+  width: 20vw;
+  padding: 0.2em;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.recipe-link{
+  width: 70%;
+  padding: 0.2em;
+  margin: 0.2em auto;
+  text-align: center;
+  background-color: rgb(204, 178, 138);
+  border-radius: 4px;
+
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(34, 96, 179);
+}
