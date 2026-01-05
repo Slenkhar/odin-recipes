@@ -1,8 +1,8 @@
-.welcome {
+.welcome, .recipe-title{
   background-color: blanchedalmond;
   width: 50vw;
   padding: 0.2em;
-  margin: auto;
+  margin: 4vw auto;
   text-align: center;
   text-transform: uppercase;
   color: rgb(83, 45, 14);
@@ -30,4 +30,49 @@
 a:link, a:visited {
   text-decoration: none;
   color: rgb(34, 96, 179);
+}
+
+.image-ingredients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+}
+
+.image-ingredients img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border: solid 0.7vw rgb(204, 178, 138);
+  border-radius: 1.4vw;
+  display: flex;
+}
+
+.ingredient-list {
+  background-color: burlywood;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.4vw;
+}
+
+.process {
+  background-color: rgb(247, 184, 101);
+  padding: 0.2em;
+  margin: 4vw auto;
+  border-radius: 1.4vw;
+}
+
+.process h2 {
+  text-align: center;
+}
+
+.back-home {
+  text-align: center;
+  width: 10vw;
+  margin: auto;
+  padding: 0.2em;
+  background-color: rgb(153, 221, 97);
+  border-radius: 1.4em;
 }
