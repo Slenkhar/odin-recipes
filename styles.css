@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(104, 98, 68);
+}
+
 .welcome, .recipe-title{
   background-color: blanchedalmond;
   width: 50vw;
